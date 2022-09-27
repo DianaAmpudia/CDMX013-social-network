@@ -75,6 +75,7 @@ export const homepage = () => {
     console.log(btnsDelete);
     btnsDelete.forEach((btn) => {
       btn.addEventListener('click', ({ target: { data } }) => {
+feat/diana/editPost
       const modal = document.createElement('section');
         modal.className = 'modal-class';
         const textModal = document.createElement('h3');
@@ -89,6 +90,7 @@ export const homepage = () => {
         modal.append(textModal, cancelbtn, okbtn);
 
         // deletePost(data);
+
       });
     });
   });
