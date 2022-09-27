@@ -370,13 +370,6 @@
     }
     }
 
-    .div-posts p{
-        grid-area: header;
-      }
-      .btndelete, .btn-edit {
-        grid-area: main;
-      }
-
     .btn-delete{
         background-image: url('./img/delete.png');
         background-repeat: no-repeat;
@@ -385,7 +378,3 @@
         height: 4vh;
 
     }
-
-
-
-}
